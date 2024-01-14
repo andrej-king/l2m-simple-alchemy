@@ -14,20 +14,22 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            font-size: 14px;
         }
 
         footer {
             margin-top: auto;
         }
 
-        .alchemy-table td,
-        .alchemy-table th {
+        .alchemy-table {
+            width: 500px;
+        }
+
+        .alchemy-table td {
             vertical-align: middle;
         }
 
         .table-number {
-            width: 70px;
+            width: 50px;
             text-align: center;
         }
 
@@ -54,22 +56,29 @@
             font-weight: bold;
             color: #871983;
         }
+
+        .third-column-align {
+            vertical-align: middle;
+            text-align: center;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
     </style>
 </head>
 <body>
 <header>&nbsp;</header>
 <main class="d-flex align-items-center justify-content-center">
-    <table class="table table-bordered table-sm alchemy-table" style="width: 700px">
+    <table class="table table-bordered table-sm alchemy-table">
         <tbody>
         <tr>
             <td rowspan="8" class="table-number">1</td>
             <td>
-                <span class="item-blue">6.6 00_0</span> (безоп. 6)
+                <span class="item-blue">6.6 00_0</span> (без. 6)
             </td>
-            <td rowspan="8" style="vertical-align : middle;text-align:center;">
-                +3 бижа, +6 (без. 4), +8 (безоп. 6),
+            <td rowspan="8" class="third-column-align">
+                +3 бижа, <br> +6 (без. 4), <br> +8 (без. 6),
                 <br>
-                <span class="item-red">эпик, эпик</span>
+                <span class="item-red">эпик x2</span>
             </td>
         </tr>
         <tr>
@@ -77,17 +86,17 @@
         </tr>
         <tr>
             <td>
-                <span class="item-blue">6.1 00_0</span> (безоп. 6, бижа)
+                <span class="item-blue">6.1 00_0</span> (без. 6, бижа)
             </td>
         </tr>
         <tr>
             <td>
-                <span class="item-blue">5 00_00</span> (безоп 4)
+                <span class="item-blue">5 00_00</span> (без. 4)
             </td>
         </tr>
         <tr>
             <td>
-                <span class="item-blue">7 00_00</span> (безоп. 6)
+                <span class="item-blue">7 00_00</span> (без. 6)
             </td>
         </tr>
         <tr>
@@ -102,7 +111,7 @@
         </tr>
         <tr>
             <td>
-                <span class="item-blue">6 00_0</span> (безоп 4)
+                <span class="item-blue">6 00_0</span> (без. 4)
             </td>
         </tr>
 
@@ -112,10 +121,10 @@
             <td>
                 <span class="item-blue">3.2 00_0</span> (бижа)
             </td>
-            <td rowspan="7" style="vertical-align : middle;text-align:center;">
-                +5/6 (без. 4), +8 (безоп. 6), +7 (без. 4),
+            <td rowspan="7" class="third-column-align">
+                +5/6 (без. 4), <br> +8 (без. 6), <br> +7 (без. 4),
                 <br>
-                <span class="item-red"> эпик, эпик</span>
+                <span class="item-red"> эпик x2</span>
             </td>
         </tr>
         <tr>
@@ -125,7 +134,7 @@
         </tr>
         <tr>
             <td>
-                <span class="item-blue">6.1 00_0</span> (безоп 4)
+                <span class="item-blue">6.1 00_0</span> (без. 4)
             </td>
         </tr>
         <tr>
@@ -135,7 +144,7 @@
         </tr>
         <tr>
             <td>
-                <span class="item-blue">7 00_0</span> (безоп 4)
+                <span class="item-blue">7 00_0</span> (без. 4)
             </td>
         </tr>
         <tr>
@@ -153,12 +162,12 @@
         <tr>
             <td rowspan="3" class="table-number">3</td>
             <td>
-                <span class="item-blue">8 00_0</span> (безоп 6)
+                <span class="item-blue">8 00_0</span> (без. 6)
             </td>
-            <td rowspan="3" style="vertical-align : middle;text-align:center;">
-                +6 (без. 4), +8 (безоп. 6),
+            <td rowspan="3" class="third-column-align">
+                +6 (без. 4), <br> +8 (без. 6),
                 <br>
-                <span class="item-red">эпик, эпик, эпик</span>
+                <span class="item-red">эпик x3</span>
             </td>
         </tr>
         <tr>
@@ -168,7 +177,7 @@
         </tr>
         <tr>
             <td>
-                <span class="item-blue">7.7 00</span> (безоп 4)
+                <span class="item-blue">7.7 00</span> (без. 4)
             </td>
         </tr>
 
@@ -178,10 +187,10 @@
             <td>
                 <span class="item-blue">8.8 00</span> (пуха)
             </td>
-            <td rowspan="3" style="vertical-align : middle;text-align:center;">
-                +8 (безоп. 6), +7 (без. 4),
+            <td rowspan="3" class="third-column-align">
+                +8 (без. 6), <br> +7 (без. 4),
                 <br>
-                <span class="item-red">эпик, эпик, эпик</span>
+                <span class="item-red">эпик x3</span>
             </td>
         </tr>
         <tr>
@@ -191,7 +200,7 @@
         </tr>
         <tr>
             <td>
-                <span class="item-blue">7.7.7 00</span> (безоп 4)
+                <span class="item-blue">7.7.7 00</span> (без. 4)
             </td>
         </tr>
 
@@ -199,17 +208,17 @@
         <tr>
             <td rowspan="3" class="table-number">5</td>
             <td>
-                <span class="item-blue">8.8.8</span> (безоп. 6)
+                <span class="item-blue">8.8.8</span> (без. 6)
             </td>
-            <td rowspan="3" style="vertical-align : middle;text-align:center;">
-                +8 (безоп. 6),
+            <td rowspan="3" class="third-column-align">
+                +8 (без. 6),
                 <br>
-                <span class="item-red">эпик, эпик, эпик, эпик</span>
+                <span class="item-red">эпик x4</span>
             </td>
         </tr>
         <tr>
             <td>
-                <span class="item-blue">5.8 00_0</span> (бижа, безоп. 6)
+                <span class="item-blue">5.8 00_0</span> (бижа, без. 6)
             </td>
         </tr>
         <tr>
@@ -224,7 +233,7 @@
             <td>
                 <span class="item-red">Эпик, эпик,</span> <span class="item-green">зелень</span>
             </td>
-            <td style="vertical-align : middle;text-align:center;">
+            <td class="third-column-align">
                 Редкое красное <br/> <span>(<span class="item-violet">фиол</span> в 5м слоте)</span>
             </td>
         </tr>
@@ -233,16 +242,18 @@
         <tr>
             <td rowspan="2" class="table-number">7</td>
             <td>
-                <span class="item-red">Эпик, эпик,</span> <span class="item-blue">бижа +3, бижа +3</span>
+                <span class="item-red">Эпик, эпик,</span> <span class="item-blue">бижа +3 х2</span>
             </td>
-            <td rowspan="2" style="vertical-align : middle;text-align:center;">
+            <td rowspan="2" class="third-column-align">
                 Разное красное <br>
-                (редко <span class="item-violet">фиол</span> в 5м слоте)
+                (<span class="item-violet">Фиол</span> в 5м слоте)
             </td>
         </tr>
         <tr>
             <td>
-                <span class="item-red">Эпик, эпик,</span> <span class="item-blue">8, 8</span> (безоп. 6)
+                <span class="item-red">Эпик, эпик,</span> <span class="item-blue">8, 8</span> (без. 6)
+                <!--                <span class="item-red">Эпик, эпик,</span> <span class="item-blue">8, 8</span> (без. 6)-->
+                <!--                <span class="item-red">0.0</span> <span class="item-blue">88</span> (без. 6)-->
             </td>
         </tr>
 
@@ -252,7 +263,7 @@
             <td>
                 <span class="item-red">Эпик х5</span>
             </td>
-            <td style="vertical-align : middle;text-align:center;">
+            <td class="third-column-align">
                 <span class="item-violet">Фиол</span> в 5м слоте
             </td>
         </tr>
@@ -260,7 +271,7 @@
             <td>
                 <span class="item-red">Эпик бижа +3, эпик х4</span>
             </td>
-            <td style="vertical-align : middle;text-align:center;">
+            <td class="third-column-align">
                 <span class="item-violet">Фиол</span> в 4м слоте
             </td>
         </tr>
@@ -268,7 +279,7 @@
             <td>
                 <span class="item-red">Эпик бижа +4, эпик х3</span>
             </td>
-            <td style="vertical-align : middle;text-align:center;">
+            <td class="third-column-align">
                 <span class="item-violet">Фиол (Т1)</span> в 3м слоте
                 <br/>
                 <span class="item-violet">Фиол (Т2)</span> в 4м слоте
@@ -278,7 +289,7 @@
             <td>
                 <span class="item-red">Эпик бижа +5, эпик х3</span>
             </td>
-            <td rowspan="3" style="vertical-align : middle;text-align:center;">
+            <td rowspan="3" class="third-column-align">
                 <span class="item-violet">Фиол (Т1)</span> во 2м слоте
                 <br/>
                 <span class="item-violet">Фиол (Т2)</span> в 3м слоте
